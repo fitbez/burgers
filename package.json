@@ -1,27 +1,30 @@
 {
-  "name": "burger",
+  "name": "burgers",
   "version": "1.0.0",
-  "description": "burger finder using Node.js, Express, Handlebars and MySQL",
+  "description": "",
   "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express-handlebars": "^3.0.0",
+    "express": "^4.16.2",
+    "method-override": "^2.3.10",
+    "mysql": "^2.15.0",
+    "sequelize": "^4.27.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fitbez/burger.git"
+    "url": "git+https://github.com/fitbez/burgers.git"
   },
   "keywords": [],
-  "author": "Fitsum",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fitbez/burger/issues"
+    "url": "https://github.com/fitbez/burgers/issues"
   },
-  "homepage": "https://github.com/fitbez/burger#readme",
-  "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2",
-    "express-handlebars": "^3.0.0",
-    "method-override": "^2.3.10",
-    "mysql": "^2.15.0",
-  }
+  "homepage": "https://github.com/fitbez/burgers#readme"
 }
